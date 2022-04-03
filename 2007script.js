@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         2007Scape r/place
 // @version      0.3
+// @namespace    http://tampermonkey.net/
 // @description  A bot for 2007scape!
 // @author       Giacomino
 // @match        https://www.reddit.com/r/place/*

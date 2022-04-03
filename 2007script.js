@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         2007Scape r/place
-// @version      0.1
+// @version      0.3
 // @description  A bot for 2007scape!
-// @author       NoahvdAa
-// @match        http://2007scapeplace.bolbistroganovsky.com/pix.png
+// @author       Giacomino
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require      https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
+// @updateURL    https://raw.githubusercontent.com/Giacomino99/2007scapePlace/main/2007script.js
+// @downloadURL  https://raw.githubusercontent.com/Giacomino99/2007scapePlace/main/2007script.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // ==/UserScript==
@@ -81,7 +82,7 @@ order.sort(() => Math.random() - 0.5);
         connectSocket();
         attemptPlace();
         console.log('ping');
-    }, 300000);
+    }, 305000);
 })();
 
 async function connectSocket() {
